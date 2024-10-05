@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #f55a00;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: #f55a00;
+    padding: 20px 40px;
+    border: solid #f55a00 2px;
+    border-radius: 10px;
+}
+
+.header-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+.nav-link {
+    color: #f55a00;
+    font-size: medium;
+    text-decoration: none;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {   
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.content2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.content2 img {
+    width: 700px;
+    animation: none;
+}
+
+.content2 img:hover {
+    width: 700px;
+    filter: none;
+}
+
+.Niphone {
+    border: solid #f55a00 2px;
+    border-radius: 20px;
+    margin: 50px;
+    transition: 0.3s;
+    width: auto;
+    transition: 0.3s;
+}
+
+.Niphone:hover {
+    border-color: aliceblue;
+}
+
+.Aiphone {
+    border: solid #f55a00 2px;
+    border-radius: 20px;
+    margin: 50px;
+}
+
+.Aiphone:hover {
+    border-color: aliceblue;
+}
+
+.classe img{
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+img {
+    text-align: center;
+    width: 400px;
+    transition: 0.3s;
+    border-radius: 20px;
+    filter: grayscale(100%);
+}
+
+img:hover {
+    filter: grayscale(0%);
+    width: 500px;
+}
+
+.header-title a {
+    text-decoration: none;
+    color: #f55a00;
+    transition: 0.3s;
+}
+
+.header-title a:hover {
+    color: aliceblue;
+}
+
+.PHY {
+    text-align: center;
+}
+
+
+.PHY p {
+    text-align: center;
+    margin: auto;
+    width: 150px;
+}
+
+p {
+    color: aliceblue;
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+}
+
+h4 {
+    color: aliceblue;
+    padding: 20px;
+    margin: 20px;
+}
+
+.buy a {
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: #f55a00;
+    transition: 0.3s;
+}
+
+.buy a:hover {
+    font-size: 20px;
+    color: #000000;
+    background-color: aliceblue;
+}
+
+.buy {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.HM {
+    display: none;
+}
+
+.HM a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #f55a00;
+    padding: 8px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.HM a:hover {
+    color: #000000;
+    background-color: #ffffff;
+    font-size: large;
+
+}
+
+.menu .buy a {
+    font-size: 25px;
+}
+
+.titreMenu h1 {
+    font-size: 50px;
+    padding: 20px;
+}
+
+.maint a {
+    padding: 10px;
+    background-color: #f55a00;
+    border-radius: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.maint a:hover {
+    font-size: larger;
+    background-color: #fcfcfc;
+    color: #000000;
+}
+
+.maint {
+    text-align: center;
+}
+
+.all {
+    text-align: center;
+    text-decoration: none;
+}
+
+.all a {
+    text-align: center;
+    width: 40px;
+    text-decoration: none;
+}
+
+.ester a{
+    text-decoration: none;
+    color: #00001b;
+}
+
+.num {
+    font-size: 100px;
+    padding: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    .content2 {
+        flex-direction: column;
+    }
+
+    .content2 h4 {
+        text-align: center;
+    }
+
+    img {
+        animation: 0s;
+    }
+}
+
+@media screen and (max-width: 1210px) {
+     img {
+        width: 400px;
+        text-align: center;
+     }
+
+     img:hover {
+        width: 500px;
+    }
+
+    .content2 img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1045px) {
+    img {
+       width: 250px;
+    }
+
+    img:hover {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .content {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    nav {
+        display: none;
+    }
+
+    .HM {
+        display: contents;
+    }
+}
+
+
+
+
+
+
+
